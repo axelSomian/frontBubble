@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/house/components/house-list/house-list.component.scss"],
+  "sourcesContent": [".search-bar{\r\n    width: 50%;\r\n    height: 40px;\r\n    min-width: 300px;\r\n    margin: 0 auto;\r\n    margin-bottom: 30px;\r\n}"],
+  "mappings": "AAAA,CAAA,WACI,MAAA,IACA,OAAA,KACA,UAAA,MAHJ,OAII,EAAA,KACA",
+  "names": []
+}

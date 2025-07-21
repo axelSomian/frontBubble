@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/components/header/header.component.scss"],
+  "sourcesContent": ["h1{\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n.logo {\r\n  font-family: 'Segoe UI', sans-serif;\r\n  font-weight: bold;\r\n  font-size: 1.5rem;\r\n  margin: 0;\r\n}\r\n\r\n"],
+  "mappings": "AAAA,WACI,EADJ,OAEI,EAEJ,CAAA,KACE,YAAA,QAAA,CAAA,WACA,YAAA,IACA,UAAA,OAPF,OAQE",
+  "names": []
+}

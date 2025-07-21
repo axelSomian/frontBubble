@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/house/components/house-details/house-details.component.scss"],
+  "sourcesContent": [".rating {\r\n  color: gold;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.host-card img {\r\n  width: 50px;\r\n  height: 50px;\r\n  object-fit: cover;\r\n  border-radius: 50%;\r\n}\r\n\r\n.btn-view-all {\r\n  position: absolute;\r\n  bottom: 10px;\r\n  right: 10px;\r\n}\r\n\r\n.img-fixed {\r\n  width: 100%;\r\n  height: 200px; /* ajuste selon ton design */\r\n  object-fit: cover;\r\n  border-radius: 0.5rem;\r\n}\r\n\r\nul {\r\n  padding-left: 0;\r\n}\r\n\r\nli {\r\n  font-size: 15px;\r\n  font-weight: 500;\r\n}\r\n.imgP{\r\n  max-height: 400px ;\r\n  width: 100%;\r\n  object-fit: cover;\r\n}"],
+  "mappings": "AAAA,CAAA,OACE,MAAA,KACA,UAAA,OAGF,CAAA,UAAA,IACE,MAAA,KACA,OAAA,KACA,WAAA,MARF,cASE,IAGF,CAAA,aACE,SAAA,SACA,OAAA,KACA,MAAA,KAGF,CAAA,UACE,MAAA,KACA,OAAA,MACA,WAAA,MArBF,cAsBE,MAGF,GACE,aAAA,EAGF,GACE,UAAA,KACA,YAAA,IAEF,CAAA,KACE,WAAA,MACA,MAAA,KACA,WAAA",
+  "names": []
+}
