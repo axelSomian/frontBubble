@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/components/header/header.component.scss"],
+  "sourcesContent": ["h1{\n    padding: 0;\n    margin: 0;\n}\n.logo {\n  font-family: 'apple-system', sans-serif;\n  font-weight: bold;\n  font-size: 1.5rem;\n  margin: 0;\n}\n.brand {\n  color: #5170ff; /* Couleur principale */\n  \n}\n\n"],
+  "mappings": "AAAA,WACI,EADJ,OAEI,EAEJ,CAAA,KACE,YAAA,YAAA,CAAA,WACA,YAAA,IACA,UAAA,OAPF,OAQE,EAEF,CAAA,MACE,MAAA",
+  "names": []
+}
