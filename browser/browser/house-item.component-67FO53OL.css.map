@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/house/components/house-item/house-item.component.scss"],
+  "sourcesContent": ["\n.img-height {\n  height: 150x;\n  object-fit: cover;\n}\n\n.carousel-indicators [data-bs-target] {\n  width: 4px;\n  height: 4px;\n  border-radius: 50%;\n  background-color: #999;\n}\n"],
+  "mappings": "AACA,CAAA,WACE,OAAA,KACA,WAAA,MAGF,CAAA,oBAAA,CAAA,gBACE,MAAA,IACA,OAAA,IAPF,cAQE,IACA,iBAAA",
+  "names": []
+}
