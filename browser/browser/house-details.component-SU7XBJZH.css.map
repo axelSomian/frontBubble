@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/house/components/house-details/house-details.component.scss"],
+  "sourcesContent": [".rating {\n  color: gold;\n  font-size: 1.2rem;\n}\n\n.host-card img {\n  width: 50px;\n  height: 50px;\n  object-fit: cover;\n  border-radius: 50%;\n}\n\n.btn-view-all {\n  position: absolute;\n  bottom: 10px;\n  right: 10px;\n}\n\n.img-fixed {\n  width: 100%;\n  height: 200px; /* ajuste selon ton design */\n  object-fit: cover;\n  border-radius: 0.5rem;\n}\n\nul {\n  padding-left: 0;\n}\n\nli {\n  font-size: 15px;\n  font-weight: 500;\n}\n.imgP{\n  max-height: 400px ;\n  width: 100%;\n  object-fit: cover;\n}"],
+  "mappings": "AAAA,CAAA,OACE,MAAA,KACA,UAAA,OAGF,CAAA,UAAA,IACE,MAAA,KACA,OAAA,KACA,WAAA,MARF,cASE,IAGF,CAAA,aACE,SAAA,SACA,OAAA,KACA,MAAA,KAGF,CAAA,UACE,MAAA,KACA,OAAA,MACA,WAAA,MArBF,cAsBE,MAGF,GACE,aAAA,EAGF,GACE,UAAA,KACA,YAAA,IAEF,CAAA,KACE,WAAA,MACA,MAAA,KACA,WAAA",
+  "names": []
+}
