@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/owner/services/owner.service.ts"],
+  "sourcesContent": ["import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Owner } from '../models/owner.model';\nimport { Observable } from 'rxjs';\nimport { environment } from '../../../environments/environment';\n\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class OwnerService {\n\n  apiUrl: string = environment.apiUrl + '/owners';\n\n  constructor(private http: HttpClient) { }\n\n  getOwnerById(idOwner: string): Observable<Owner> {\n    return this.http.get<Owner>(`${this.apiUrl}/${idOwner}`);\n  }\n\n  getAllOwners(): Observable<Owner[]> {\n    return this.http.get<Owner[]>(`${this.apiUrl}`);\n  }\n\n  getOwnerByToken(): Observable<Owner> {\n    return this.http.get<Owner>(`${this.apiUrl}/getOwnerByToken`);\n  }\n\n}\n"],
+  "mappings": "+DAUA,IAAaA,GAAY,IAAA,CAAnB,MAAOA,CAAY,CAIHC,KAFpBC,OAAiBC,EAAYD,OAAS,UAEtCE,YAAoBH,EAAgB,CAAhB,KAAAA,KAAAA,CAAoB,CAExCI,aAAaC,EAAe,CAC1B,OAAO,KAAKL,KAAKM,IAAW,GAAG,KAAKL,MAAM,IAAII,CAAO,EAAE,CACzD,CAEAE,cAAY,CACV,OAAO,KAAKP,KAAKM,IAAa,GAAG,KAAKL,MAAM,EAAE,CAChD,CAEAO,iBAAe,CACb,OAAO,KAAKR,KAAKM,IAAW,GAAG,KAAKL,MAAM,kBAAkB,CAC9D,4CAhBWF,GAAYU,EAAAC,CAAA,CAAA,CAAA,6BAAZX,EAAYY,QAAZZ,EAAYa,UAAAC,WAFX,MAAM,CAAA,SAEPd,CAAY,GAAA",
+  "names": ["OwnerService", "http", "apiUrl", "environment", "constructor", "getOwnerById", "idOwner", "get", "getAllOwners", "getOwnerByToken", "\u0275\u0275inject", "HttpClient", "factory", "\u0275fac", "providedIn"]
+}

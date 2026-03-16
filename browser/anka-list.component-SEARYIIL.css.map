@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/anka/components/anka-list/anka-list.component.scss"],
+  "sourcesContent": ["// Animations for Anka List Results\n.animate-slide-down {\n    animation: slideDown 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;\n}\n\n.animate-fade-in {\n    opacity: 0;\n    animation: fadeInUp 0.5s ease-out forwards;\n}\n\n@keyframes slideDown {\n    from {\n        opacity: 0;\n        transform: translateY(-20px);\n    }\n\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeInUp {\n    from {\n        opacity: 0;\n        transform: translateY(20px);\n    }\n\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}"],
+  "mappings": "AACA,CAAA,mBACI,UAAA,UAAA,IAAA,aAAA,EAAA,CAAA,EAAA,CAAA,EAAA,CAAA,GAAA,SAGJ,CAAA,gBACI,QAAA,EACA,UAAA,SAAA,IAAA,SAAA,SAGJ,WARI,UASA,GACI,QAAA,EACA,UAAA,WAAA,OAGJ,GACI,QAAA,EACA,UAAA,WAAA,IAIR,WAfI,SAgBA,GACI,QAAA,EACA,UAAA,WAAA,MAGJ,GACI,QAAA,EACA,UAAA,WAAA",
+  "names": []
+}

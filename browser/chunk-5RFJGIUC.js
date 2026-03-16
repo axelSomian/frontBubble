@@ -1,0 +1,2 @@
+import{A as e,D as i,db as n,tb as o}from"./chunk-7QAHUVTH.js";var h=(()=>{class t{http;apiUrl=o.apiUrl+"/owners";constructor(r){this.http=r}getOwnerById(r){return this.http.get(`${this.apiUrl}/${r}`)}getAllOwners(){return this.http.get(`${this.apiUrl}`)}getOwnerByToken(){return this.http.get(`${this.apiUrl}/getOwnerByToken`)}static \u0275fac=function(p){return new(p||t)(i(n))};static \u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})}return t})();export{h as a};
+//# sourceMappingURL=chunk-5RFJGIUC.js.map

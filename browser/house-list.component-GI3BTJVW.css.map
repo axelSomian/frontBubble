@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/house/components/house-list/house-list.component.scss"],
+  "sourcesContent": ["// Search animations and styles\n.animate-fade-in {\n    opacity: 0;\n    animation: fadeInUp 0.5s ease-out forwards;\n}\n\n@keyframes fadeInUp {\n    from {\n        opacity: 0;\n        transform: translateY(20px);\n    }\n\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n        transform: translateY(-10px);\n    }\n\n    to {\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n.search-container {\n    transition: all 0.3s ease;\n    border: 1px solid rgba(0, 0, 0, 0.08) !important;\n\n    &:hover,\n    &:focus-within {\n        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;\n        transform: translateY(-2px);\n        border-color: transparent !important;\n    }\n}\n\n.form-control:focus {\n    box-shadow: none;\n}"],
+  "mappings": "AACA,CAAA,gBACI,QAAA,EACA,UAAA,SAAA,IAAA,SAAA,SAGJ,WAHI,SAIA,GACI,QAAA,EACA,UAAA,WAAA,MAGJ,GACI,QAAA,EACA,UAAA,WAAA,IAIR,WAAA,OACI,GACI,QAAA,EACA,UAAA,WAAA,OAGJ,GACI,QAAA,EACA,UAAA,WAAA,IAIR,CAAA,iBACI,WAAA,IAAA,IAAA,KACA,OAAA,IAAA,MAAA,KAAA,CAAA,CAAA,CAAA,CAAA,CAAA,CAAA,eAEA,CAJJ,gBAII,OAAA,CAJJ,gBAII,cAEI,WAAA,EAAA,IAAA,KAAA,oBACA,UAAA,WAAA,MACA,aAAA,sBAIR,CAAA,YAAA,OACI,WAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/owner/components/owner-contact/owner-contact.component.scss"],
+  "sourcesContent": [".contact-btn {\n    border-width: 1px;\n    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n    font-size: 0.95rem;\n\n    &:hover {\n        transform: translateY(-2px);\n        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;\n    }\n}\n\n.btn-primary-premium {\n    background: linear-gradient(135deg, #0d6efd 0%, #004dc2 100%);\n    color: white;\n    border: none;\n\n    &:hover {\n        background: linear-gradient(135deg, #1075ff 0%, #0056d6 100%);\n        color: white;\n    }\n}\n\n.btn-outline-success-premium {\n    border: 2px solid #198754;\n    color: #198754;\n    background: transparent;\n\n    &:hover {\n        background: #198754;\n        color: white;\n    }\n}\n\n.icon-box {\n    width: 28px;\n    height: 28px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 0.8rem;\n}"],
+  "mappings": "AAAA,CAAA,YACI,aAAA,IACA,WAAA,IAAA,IAAA,aAAA,EAAA,CAAA,CAAA,CAAA,EAAA,CAAA,GACA,UAAA,OAEA,CALJ,WAKI,OACI,UAAA,WAAA,MACA,WAAA,EAAA,IAAA,KAAA,oBAIR,CAAA,oBACI,WAAA,gBAAA,MAAA,CAAA,OAAA,CAAA,SACA,MAAA,KACA,OAAA,KAEA,CALJ,mBAKI,OACI,WAAA,gBAAA,MAAA,CAAA,OAAA,CAAA,SACA,MAAA,KAIR,CAAA,4BACI,OAAA,IAAA,MAAA,QACA,MAAA,QACA,WAAA,YAEA,CALJ,2BAKI,OACI,WAAA,QACA,MAAA,KAIR,CAAA,SACI,MAAA,KACA,OAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,OACA,UAAA",
+  "names": []
+}
